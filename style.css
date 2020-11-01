@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+article {
+    background: tan;
+    border: 1px black solid;
+}
