@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 h1 {
@@ -43,7 +44,9 @@ ul {
 
 li {
     display: list-item;
+    text-emphasis: none;
 }
+
 
 #numbered {
     margin: 0 0 2rem 2rem;
