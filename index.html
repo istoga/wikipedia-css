@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Wikipedia Clone</title>
 </head>
 
@@ -27,14 +28,18 @@
         <header>
             <h1>Contents</h1>
         </header>
-        <ol>
+
+        <div>
+        <ol id="numbered">
+            <div>
             <li><strong>Origins</strong></li>
-            <ol>
-                <li>The open-source model and open collaboration</li>
-                <li>Open-source license</li>
-                <li>Open-source software code</li>
-                <li>"Open" versus "free" versus "free and open"</li>
+            <ol id="numbered-list">
+                <li><span>1.1</span>The open-source model and open collaboration</li>
+                <li><span>1.2</span>Open-source license</li>
+                <li><span>1.3</span>Open-source software code</li>
+                <li><span>1.4</span>"Open" versus "free" versus "free and open"</li>
             </ol>
+            </div>
 
 
             <li>Software</li>
@@ -47,6 +52,8 @@
             <li>References</li>
             <li>See also</li>
         </ol>
+        </article>
+        </div>
 
         <h2>Origins</h2>
         <hr>
@@ -69,7 +76,7 @@
             mind.<sup>[7]</sup> Netscape released its source code under the Netscape Public License and later under the
             Mozilla Public
             License.<sup>[8]</sup></p>
-        <ul>
+        <ul class="bottom-list">
             <li>
                 <ol>GNU<ol>
             </li>

@@ -1,13 +1,61 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 2rem;
 }
 
 h2 {
     font-weight: bold;
+    padding: 2rem;
 }
 
 article {
-    background: tan;
+    background: grey;
     border: 1px black solid;
+    display: block;
+    resize: both;
+    width: 30rem;
+    padding: 1rem 0 1rem 0;
+    margin: 5rem;
+
+}
+
+p {
+    padding: 1rem;
+}
+
+.bottom-list {
+        padding: 2rem;
+}
+
+div {
+    display: table;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 0 0 2rem;
+}
+
+li {
+    display: list-item;
+}
+
+#numbered {
+    margin: 0 0 2rem 2rem;
+}
+
+#numbered-list {
+    margin: 0 0 0 2rem;
+    list-style-type: none;
+    display: list-item;
+    
+}
+
+span {
+    padding: 1em;
 }
